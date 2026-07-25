@@ -106,7 +106,7 @@ const Navbar = () => {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ duration: 0.35 }}
-            className="fixed top-20 right-0 w-full h-screen bg-white dark:bg-zinc-950 flex flex-col items-center pt-16 gap-8 md:hidden"
+            className="fixed top-20 right-0 w-full h-screen bg-white dark:bg-zinc-900 dark:text-gray-200 flex flex-col items-center pt-16 gap-8 md:hidden"
           >
             {links.map((link) => (
               <a

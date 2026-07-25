@@ -80,7 +80,7 @@ const Hero = () => {
               href="https://github.com/MiyaAadil"
               target="_blank"
               rel="noreferrer"
-              className="py-3 px-3.5 rounded-full bg-zinc-200 dark:bg-zinc-900 hover:scale-110 transition"
+              className="py-3 px-3.5 rounded-full bg-zinc-100 dark:bg-zinc-900 hover:scale-110 transition"
             >
               <FontAwesomeIcon icon={faGithub} />
             </a>
@@ -89,7 +89,7 @@ const Hero = () => {
               href="https://www.linkedin.com/in/aadil-miya-390b9925a/"
               target="_blank"
               rel="noreferrer"
-              className="py-3 px-3.5 rounded-full bg-zinc-200 dark:bg-zinc-900 hover:scale-110 transition"
+              className="py-3 px-3.5 rounded-full bg-zinc-100 dark:bg-zinc-900 hover:scale-110 transition"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
@@ -97,7 +97,7 @@ const Hero = () => {
             <a
               href="mailto:miyaaadil76@gmail.com"
               target="_blank"
-              className="py-3 px-3.5 rounded-full bg-zinc-200 dark:bg-zinc-900 hover:scale-110 transition"
+              className="py-3 px-3.5 rounded-full bg-zinc-100 dark:bg-zinc-900 hover:scale-110 transition"
             >
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
