@@ -117,7 +117,7 @@ const Hero = () => {
             ].map((tech) => (
               <span
                 key={tech}
-                className="rounded-full shadow shadow-blue-400 border border-zinc-300 dark:border-zinc-700 dark:text-gray-200 px-5 py-2 text-sm bg-white/70 dark:bg-zinc-900/70 backdrop-blur-md"
+                className="rounded-full shadow shadow-teal-400 border border-zinc-300 dark:border-zinc-700 dark:text-gray-200 px-5 py-2 text-sm bg-white/70 dark:bg-zinc-900/70 backdrop-blur-md"
               >
                 {tech}
               </span>

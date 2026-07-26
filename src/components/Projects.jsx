@@ -11,6 +11,7 @@ import Project4 from '../assets/images/Project4.png'
 const projects = [
   {
     title: "NovaMart",
+    Category: "E-commerce",
     description:
       "Modern ecommerce application with cart, wishlist, checkout, EmailJS order confirmation and responsive UI.",
     image: Project1,
@@ -19,7 +20,8 @@ const projects = [
     github: "https://github.com/MiyaAadil/NovaMart-ecommerce",
   },
   {
-    title: "Cortexis", 
+    title: "Cortexis",
+    Category: "Corporate", 
     description:
       "Corporate website with dark mode, Framer Motion animations and fully responsive design.",
     image: Project2,
@@ -29,6 +31,7 @@ const projects = [
   },
   {
     title: "NewsPulse",
+    Category: "News portal",
     description:
       "News portal featuring search, category filters, bookmarks, dark mode and detailed article pages.",
     image: Project3,
@@ -37,8 +40,9 @@ const projects = [
     github: "https://github.com/MiyaAadil/News-portal-site",
   },{
     title: "Wanderly",
+    Category: "Tours & travel",
     description:
-      "News portal featuring search, category filters, bookmarks, dark mode and detailed article pages.",
+      "Fully responsive tours & travel site built with React, Tailwind CSS, and Framer Motion. Featuring destination discovery, tour package listings, modern animations and a clean, intuitive UI for an enhanced travel planning experience.",
     image: Project4,
     tech: ["React", "framer-motion", "Tailwind"],
     live: "https://tours-travel-website-chi.vercel.app/",
@@ -94,6 +98,8 @@ const Projects = () => {
                 <h3 className="text-2xl font-bold dark:text-gray-200">
                   {project.title}
                 </h3>
+
+                <p className="mt-2 text-sm text-white bg-teal-400 dark:bg-teal-500 p-1 rounded-full w-25 text-center">{project.Category}</p>
 
                 <p className="mt-4 text-zinc-600 dark:text-zinc-400 leading-7">
                   {project.description}
