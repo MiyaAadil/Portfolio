@@ -115,7 +115,7 @@ const Footer = () => {
                 <span>miyaaadil76@gmail.com</span>
               </a>
               <a
-                href="tel:+1234567890"
+                href="tel:+9779863266164"
                 className="flex items-center gap-3 text-sm text-zinc-600 dark:text-zinc-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
               >
                 <Phone size={18} className="flex-shrink-0" />
