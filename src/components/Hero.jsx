@@ -92,9 +92,9 @@ const Hero = () => {
             {/* Description */}
             <motion.p
               variants={itemVariants}
-              className="text-base md:text-lg leading-relaxed text-zinc-600 dark:text-zinc-300 max-w-xl"
+              className="text-base md:text-lg leading-relaxed text-zinc-600 dark:text-zinc-200 max-w-xl"
             >
-              I craft <span className="font-semibold text-blue-600 dark:text-blue-400">modern, responsive, and performant</span> web applications with React, JavaScript, and Tailwind CSS. I'm passionate about creating beautiful user interfaces with smooth animations and exceptional user experiences.
+              I craft <span className="font-semibold text-blue-600 dark:text-blue-300">modern, responsive, and performant</span> web applications with React, JavaScript, and Tailwind CSS. I'm passionate about creating beautiful user interfaces with smooth animations and exceptional user experiences.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -104,7 +104,7 @@ const Hero = () => {
             >
               <a
                 href="#projects"
-                className="group flex items-center gap-3 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 px-8 py-4 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="group flex items-center gap-3 rounded-xl bg-gradient-to-r from-teal-300 to-teal-700 px-8 py-4 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
                 View Projects
                 <ArrowRight
@@ -115,7 +115,7 @@ const Hero = () => {
 
               <a
                 href="#contact"
-                className="rounded-xl border-2 border-zinc-300 dark:border-zinc-700 dark:text-white px-8 py-4 font-semibold hover:bg-zinc-100 dark:hover:bg-zinc-900/50 transition-all duration-300 hover:border-blue-500 dark:hover:border-blue-400"
+                className="rounded-xl border-2 border-zinc-300 dark:border-gray-300 dark:text-white px-8 py-4 font-semibold dark:hover:bg-zinc-200/50 transition-all duration-300 hover:border-teal-400 dark:hover:border-gray-300"
               >
                 Contact Me
               </a>
@@ -123,7 +123,7 @@ const Hero = () => {
 
             {/* Social Links */}
             <motion.div variants={itemVariants} className="flex items-center gap-6 pt-6">
-              <p className="text-sm font-semibold text-zinc-600 dark:text-zinc-400">
+              <p className="text-lg font-semibold text-zinc-500 dark:text-black/70">
                 Connect with me
               </p>
               <div className="flex gap-4">
@@ -159,7 +159,7 @@ const Hero = () => {
 
             {/* Tech Stack */}
             <motion.div variants={itemVariants} className="space-y-3 pt-4">
-              <p className="text-sm font-semibold text-zinc-600 dark:text-zinc-400">
+              <p className="text-lg font-semibold text-zinc-600 dark:text-black/70">
                 Tech Stack
               </p>
               <div className="flex flex-wrap gap-3">
@@ -172,7 +172,7 @@ const Hero = () => {
                 ].map((tech) => (
                   <span
                     key={tech}
-                    className="rounded-full border border-blue-200 dark:border-blue-800 text-zinc-700 dark:text-blue-200 px-4 py-2 text-sm font-medium bg-blue-50/50 dark:bg-blue-950/20 backdrop-blur-sm hover:bg-blue-100 dark:hover:bg-blue-900/30 transition-colors duration-300"
+                    className="rounded-full border border-teal-200 dark:border-teal-800 text-zinc-700 dark:text-blue-100 px-4 py-2 text-sm font-medium bg-blue-50/50 dark:bg-teal-700 backdrop-blur-sm hover:bg-blue-100 dark:hover:bg-teal-900 transition-colors duration-300"
                   >
                     {tech}
                   </span>

@@ -169,7 +169,7 @@ const Contact = () => {
             Let's Create Something Amazing
           </h2>
 
-          <p className="text-lg md:text-xl leading-relaxed text-zinc-600 dark:text-zinc-300 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl leading-relaxed text-zinc-600 dark:text-zinc-200 max-w-2xl mx-auto">
             Have a project in mind? I'd love to collaborate with you. Reach out and let's discuss how we can work together.
           </p>
         </motion.div>
@@ -183,10 +183,10 @@ const Contact = () => {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
           >
-            <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
+            <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
               {/* Name Input */}
               <motion.div variants={itemVariants} className="space-y-2">
-                <label className="block text-sm font-semibold text-zinc-700 dark:text-zinc-200">
+                <label className="block text-lg font-semibold text-zinc-700 dark:text-zinc-100">
                   Full Name
                 </label>
                 <input
@@ -195,13 +195,13 @@ const Contact = () => {
                   value={formData.user_name}
                   onChange={handleChange}
                   placeholder="Your name.."
-                  className="w-full px-6 py-4 rounded-xl border-2 border-zinc-200 dark:border-zinc-400 bg-white dark:bg-zinc-300 text-zinc-900 dark:text-white placeholder-zinc-400 dark:placeholder-zinc-400 outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors duration-300"
+                  className="w-full px-6 py-3 rounded-xl bg-white dark:bg-gray-100 text-zinc-900 placeholder-zinc-300 dark:placeholder-zinc-300 outline-none transition-colors duration-300 border dark:border-white focus:border-teal-300"
                 />
               </motion.div>
 
               {/* Email Input */}
               <motion.div variants={itemVariants} className="space-y-2">
-                <label className="block text-sm font-semibold text-zinc-700 dark:text-zinc-100">
+                <label className="block text-lg font-semibold text-zinc-700 dark:text-zinc-100">
                   Email Address
                 </label>
                 <input
@@ -210,13 +210,13 @@ const Contact = () => {
                   value={formData.user_email}
                   onChange={handleChange}
                   placeholder="you@example.com"
-                  className="w-full px-6 py-4 rounded-xl border-2 border-zinc-200 dark:border-zinc-400 bg-white dark:bg-zinc-300 text-zinc-900 dark:text-white placeholder-zinc-400 dark:placeholder-zinc-400 outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors duration-300"
+                  className="w-full px-6 py-3 rounded-xl bg-white dark:bg-gray-100 text-zinc-900 placeholder-zinc-300 dark:placeholder-zinc-300 outline-none transition-colors duration-300 border dark:border-white focus:border-teal-300"
                 />
               </motion.div>
 
               {/* Message Textarea */}
               <motion.div variants={itemVariants} className="space-y-2">
-                <label className="block text-sm font-semibold text-zinc-700 dark:text-zinc-200">
+                <label className="block text-lg font-semibold text-zinc-700 dark:text-zinc-100">
                   Message
                 </label>
                 <textarea
@@ -225,7 +225,7 @@ const Contact = () => {
                   onChange={handleChange}
                   rows="6"
                   placeholder="Tell me about your project..."
-                  className="w-full px-6 py-4 rounded-xl border-2 border-zinc-200 dark:border-zinc-400 bg-white dark:bg-zinc-300 text-zinc-900 dark:text-white placeholder-zinc-400 dark:placeholder-zinc-400 outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors duration-300 resize-none"
+                  className="w-full px-6 py-3 rounded-xl bg-white dark:bg-gray-100 text-zinc-900 placeholder-zinc-300 dark:placeholder-zinc-300 outline-none transition-colors duration-300 border dark:border-white focus:border-teal-300 resize-none"
                 />
               </motion.div>
 
@@ -264,7 +264,7 @@ const Contact = () => {
                 whileTap={{ scale: 0.98 }}
                 type="submit"
                 disabled={status === "loading"}
-                className="w-full px-8 py-4 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer"
+                className="w-full px-8 py-4 rounded-xl bg-gradient-to-r from-teal-500 to-teal-800 text-white font-semibold shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer"
               >
                 {status === "loading" ? (
                   <>
