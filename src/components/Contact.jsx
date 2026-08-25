@@ -195,7 +195,7 @@ const Contact = () => {
                   value={formData.user_name}
                   onChange={handleChange}
                   placeholder="Your name.."
-                  className="w-full px-6 py-3 rounded-xl bg-white dark:bg-gray-100 text-zinc-900 placeholder-zinc-300 dark:placeholder-zinc-300 outline-none transition-colors duration-300 border dark:border-white focus:border-teal-300"
+                  className="w-full px-6 py-3 rounded-xl bg-white dark:bg-gray-200 text-zinc-900 placeholder-zinc-300 dark:placeholder-zinc-400 outline-none transition-colors duration-300 border dark:border-white focus:border-teal-300"
                 />
               </motion.div>
 
@@ -210,7 +210,7 @@ const Contact = () => {
                   value={formData.user_email}
                   onChange={handleChange}
                   placeholder="you@example.com"
-                  className="w-full px-6 py-3 rounded-xl bg-white dark:bg-gray-100 text-zinc-900 placeholder-zinc-300 dark:placeholder-zinc-300 outline-none transition-colors duration-300 border dark:border-white focus:border-teal-300"
+                  className="w-full px-6 py-3 rounded-xl bg-white dark:bg-gray-200 text-zinc-900 placeholder-zinc-300 dark:placeholder-zinc-400 outline-none transition-colors duration-300 border dark:border-white focus:border-teal-300"
                 />
               </motion.div>
 
@@ -225,7 +225,7 @@ const Contact = () => {
                   onChange={handleChange}
                   rows="6"
                   placeholder="Tell me about your project..."
-                  className="w-full px-6 py-3 rounded-xl bg-white dark:bg-gray-100 text-zinc-900 placeholder-zinc-300 dark:placeholder-zinc-300 outline-none transition-colors duration-300 border dark:border-white focus:border-teal-300 resize-none"
+                  className="w-full px-6 py-3 rounded-xl bg-white dark:bg-gray-200 text-zinc-900 placeholder-zinc-300 dark:placeholder-zinc-400 outline-none transition-colors duration-300 border dark:border-white focus:border-teal-300 resize-none"
                 />
               </motion.div>
 

@@ -7,8 +7,19 @@ import Project1 from '../assets/images/Project1.png'
 import Project2 from '../assets/images/Project2.png'
 import Project3 from '../assets/images/Project3.png'
 import Project4 from '../assets/images/Project4.png'
+import Job from '../assets/images/job-tracker.png'
 
 const projects = [
+  {
+    title: "Job Tracker",
+    Category: "Full stack",
+    description:
+      "A full-stack job application tracker with AI-assisted cover letter generation, built to solve a real problem I was facing during my own job search.",
+    image: Job,
+    tech: ["React", "Gemini API", "Tailwind", "TypeScript", "Node.js", "Supabase"],
+    live: "https://job-tracker-for-you.vercel.app/",
+    github: "https://github.com/MiyaAadil/job-tracker",
+  },
   {
     title: "NovaMart",
     Category: "E-commerce",

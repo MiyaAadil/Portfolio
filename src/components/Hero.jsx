@@ -94,7 +94,7 @@ const Hero = () => {
               variants={itemVariants}
               className="text-base md:text-lg leading-relaxed text-zinc-600 dark:text-zinc-200 max-w-xl"
             >
-              I craft <span className="font-semibold text-blue-600 dark:text-blue-300">modern, responsive, and performant</span> web applications with React, JavaScript, and Tailwind CSS. I'm passionate about creating beautiful user interfaces with smooth animations and exceptional user experiences.
+              I craft <span className="font-semibold text-blue-600 dark:text-blue-300">modern, responsive, and performant</span> web applications with React, JavaScript, TypeScript and Tailwind CSS. I'm passionate about creating beautiful user interfaces with smooth animations and exceptional user experiences.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -166,6 +166,7 @@ const Hero = () => {
                 {[
                   "React",
                   "JavaScript",
+                  "TypeScript",
                   "Tailwind CSS",
                   "Framer Motion",
                   "Git",

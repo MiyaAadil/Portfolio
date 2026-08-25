@@ -83,7 +83,7 @@ const Footer = () => {
               </p>
             </div>
             <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-200">
-              Crafting modern web experiences with React, JavaScript, and cutting-edge frontend technologies.
+              Crafting modern web experiences with React, JavaScript, TypeScript and cutting-edge frontend technologies.
             </p>
           </motion.div>
 

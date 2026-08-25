@@ -4,6 +4,7 @@ const skills = [
   "HTML",
   "CSS",
   "JavaScript",
+  "TypeScript",
   "React",
   "Tailwind CSS",
   "Git",
