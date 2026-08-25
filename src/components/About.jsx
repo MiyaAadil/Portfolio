@@ -4,7 +4,7 @@ import { CheckCircle2, Zap } from "lucide-react";
 const About = () => {
   const stats = [
     {
-      number: "4+",
+      number: "6",
       label: "Projects Built",
     },
   ];
@@ -95,7 +95,7 @@ const About = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ delay: index * 0.15, duration: 0.6 }}
-                    className="rounded-2xl border border-blue-200/50 dark:border-blue-800/50 bg-gradient-to-br from-blue-50/80 to-cyan-50/80 dark:from-blue-950/30 dark:to-cyan-950/20 backdrop-blur-sm p-8 hover:border-blue-400 dark:hover:border-blue-600 transition-all duration-300"
+                    className="rounded-2xl border border-blue-200/50 dark:border-blue-800/50 bg-gradient-to-br from-blue-50/80 to-cyan-50/80 dark:from-blue-950/30 dark:to-cyan-950/20 backdrop-blur-sm p-8 hover:border-blue-400 dark:hover:border-blue-600 transition-all duration-300 text-center"
                   >
                     <div className="text-4xl md:text-5xl font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-600">
                       {stat.number}

@@ -8,10 +8,11 @@ import Project2 from '../assets/images/Project2.png'
 import Project3 from '../assets/images/Project3.png'
 import Project4 from '../assets/images/Project4.png'
 import Job from '../assets/images/job-tracker.png'
+import Mv from '../assets/images/mv.png'
 
 const projects = [
   {
-    title: "Job Tracker",
+    title: "Job application Tracker",
     Category: "Full stack",
     description:
       "A full-stack job application tracker with AI-assisted cover letter generation, built to solve a real problem I was facing during my own job search.",
@@ -19,6 +20,16 @@ const projects = [
     tech: ["React", "Gemini API", "Tailwind", "TypeScript", "Node.js", "Supabase"],
     live: "https://job-tracker-for-you.vercel.app/",
     github: "https://github.com/MiyaAadil/job-tracker",
+  },
+  {
+    title: "Movie Recommendation",
+    Category: "Entertainment",
+    description:
+      "AI-powered movie/TV recommendation app that takes a free-text mood or craving, 'feel-good comfort show for a rainy day' and returns accurate recommendations with posters, ratings, and synopses.",
+    image: Mv,
+    tech: ["React", "Gemini API", "TMDb API", "Tailwind", "TypeScript", "Node.js"],
+    live: "https://moviemood-rec.vercel.app/",
+    github: "https://github.com/MiyaAadil/Movie_Recommendation",
   },
   {
     title: "NovaMart",
